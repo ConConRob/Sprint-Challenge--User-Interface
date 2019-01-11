@@ -150,6 +150,7 @@ footer nav a {
 /* Connor's code starts here */
 /* ============================== */
 
+
 a {
     text-decoration: none;
     color: black;
@@ -177,10 +178,15 @@ h1, h2 {
 /* ============================== */
 
 div.nav {
+    position: fixed;
+    top: 0;
     display: flex;
     padding: 20px 0;
     justify-content: space-between;
     align-items: flex-end;
+    background-color: white;
+    width: 800px;
+    margin: 0 auto
 }
 div.nav img{
     width: 20%;
@@ -193,6 +199,7 @@ div.nav nav {
 header img.head-image {
     padding: 10px 0 30px 0;
     width: 100%;
+    margin-top:90px; 
 } 
 /* ============================== */
 /* index box section */
@@ -261,6 +268,9 @@ header img.head-image {
     .container{
         width: 95%;
     }
+    div.nav {
+        width: 95%;
+    }
 }
 /* MOBILE */
 @media only screen and (max-width: 680px) {
@@ -278,6 +288,9 @@ header img.head-image {
     }
     div.nav nav a {
         padding: 1px 0;
+    }
+    header img.head-image {
+        margin-top:150px;
     }
     /* FOOTER NAV */
     footer nav {
