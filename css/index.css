@@ -144,3 +144,220 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ============================== */
+/* Connor's code starts here */
+/* ============================== */
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+hr{
+    
+    border-style: none none dotted; 
+    color: white; 
+    border-top: dashed 1px gray;
+    margin-top: 20px;
+    padding: 0;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+h1, h2 {
+    font-size: 1.1em;
+}
+/* ============================== */
+/* head */
+/* ============================== */
+
+div.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: white;
+    width: 800px;
+    margin: 0 auto
+}
+div.nav img{
+    width: 20%;
+}
+div.nav nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+header img.head-image {
+    padding: 10px 0 30px 0;
+    width: 100%;
+    margin-top:90px; 
+} 
+/* ============================== */
+/* index box section */
+/* ============================== */
+.middle-content .boxes .box1 {
+    background-color: teal;    
+}
+.middle-content .boxes .box2 {
+    background-color: gold;    
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;    
+}
+.middle-content .boxes .box4 {
+    background-color: coral;    
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;    
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;    
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;    
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;    
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+/* ============================== */
+/* about  */
+/* ============================== */
+
+
+.about-page .text-content{
+    padding: 0 15px 30px 15px;
+}
+/* ============================== */
+/* about main content */
+/* ============================== */
+
+.about-page .main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-page .main-content .card {
+    width: 50%;
+    padding: 30px 15px;
+}
+.about-page .main-content .card img {
+    width:100%;
+}
+.about-page .main-content .card h2{
+    padding-top: 15px;
+}
+.about-page .main-content .card button{
+    margin-top: 20px;
+}
+/* ============================== */
+/* CONTACT PAGE */
+/* ============================== */
+.contact-page form.contact{
+    display: flex;
+    
+}
+.contact-page form.contact div{
+    width: 48%;
+    margin: 0 1%;
+    
+}
+.contact-page form.contact div input{
+    width:80%;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+   
+}
+.contact-page form.contact div button{
+    width:80%;
+    margin: 15px;
+}
+.contact-page form.contact textarea{
+    width:80%;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 8px; 
+    padding: 4px 2px; 
+}
+
+@media only screen and (max-width: 820px) {
+    .container{
+        width: 95%;
+    }
+    div.nav {
+        width: 95%;
+    }
+}
+/* MOBILE */
+@media only screen and (max-width: 680px) {
+    /* HEADER NAV */
+    div.nav {
+        align-items: center;
+    }
+    div.nav img {
+        width: 400px;
+    }
+    div.nav nav{
+        flex-direction: column;
+        align-items: flex-start;
+        order: -1;
+    }
+    div.nav nav a {
+        padding: 1px 0;
+    }
+    header img.head-image {
+        margin-top:150px;
+    }
+    /* FOOTER NAV */
+    footer nav {
+        width: 100%;
+        padding: 20px 5%;
+        font-size: 16px;
+    }
+/* ============================== */
+/* home page mobile  */
+/* ============================== */
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .top-content .text-container {
+        width: 98%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+
+    .middle-content .boxes .box {
+        width: 37.5%;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+    }
+    .bottom-content .text-container {
+        padding-top: 15px;
+    }
+    /* ============================== */
+    /* About page mobile  */
+    /* ============================== */
+    .about-page .main-content .card {
+        width: 100%;
+    }
+}
