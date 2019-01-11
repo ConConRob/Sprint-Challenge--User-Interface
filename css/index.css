@@ -311,4 +311,10 @@ header img.head-image {
     .bottom-content .text-container {
         padding-top: 15px;
     }
+    /* ============================== */
+    /* About page mobile  */
+    /* ============================== */
+    .about-page .main-content .card {
+        width: 100%;
+    }
 }
