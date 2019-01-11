@@ -154,7 +154,24 @@ a {
     text-decoration: none;
     color: black;
 }
+hr{
+    
+    border-style: none none dotted; 
+    color: white; 
+    border-top: dashed 1px gray;
+    margin-top: 20px;
+    padding: 0;
+}
 
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+h1, h2 {
+    font-size: 1.1em;
+}
 /* ============================== */
 /* head */
 /* ============================== */
@@ -177,7 +194,7 @@ header img.head-image {
     padding: 10px 0 30px 0;
 } 
 /* ============================== */
-/* box section */
+/* index box section */
 /* ============================== */
 .middle-content .boxes .box1 {
     background-color: teal;    
@@ -208,4 +225,31 @@ header img.head-image {
 }
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
+}
+/* ============================== */
+/* about  */
+/* ============================== */
+
+
+.about-page .text-content{
+    padding: 0 15px 30px 15px;
+}
+/* ============================== */
+/* about main content */
+/* ============================== */
+
+.about-page .main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-page .main-content .card {
+    width: 50%;
+    padding: 30px 15px;
+}
+
+.about-page .main-content .card h2{
+    padding-top: 15px;
+}
+.about-page .main-content .card button{
+    margin-top: 20px;
 }
